@@ -11,6 +11,7 @@ using Estudo.Models;
 
 namespace Estudo.Controllers
 {
+    [Authorize]
     public class ProdutosController : Controller
     {
         private EstudoContext db = new EstudoContext();

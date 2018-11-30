@@ -25,7 +25,7 @@ namespace Estudo.Models
         public DbSet<Produto> Produtos { get; set; }
 
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Estudo")
         {
         }
 
